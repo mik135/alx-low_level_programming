@@ -7,4 +7,4 @@ int main ()
 	puts(str1);
 	return 0;
 }
-}
+
