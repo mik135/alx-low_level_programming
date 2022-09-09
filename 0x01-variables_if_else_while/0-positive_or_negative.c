@@ -8,7 +8,7 @@
 */
 
 /**
-* main - Assigns a random number to n everytime 
+* main - Assigns a random number to n everytime
 * it is executed
 *
 * Return: 0
