@@ -8,9 +8,9 @@
 */
 
 /**
-* main - Assign a random number to variable n 
+* main - Assign a random number to variable n
 * each time it is executed
-* 
+*
 * Return: 0
 */
 
