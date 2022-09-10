@@ -1,12 +1,12 @@
 #include <stdio.h>
-/* 
+/*
 * Files: 5-print_numbers.c
 *
 * Author: mik135
 */
 
 /**
-* main - prints all single digit numbers 
+* main - prints all single digit numbers
 * of base 10 starting from 0
 * followed by a new line
 *
@@ -27,4 +27,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-	
