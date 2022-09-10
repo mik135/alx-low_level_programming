@@ -15,23 +15,24 @@
 int main(void)
 {
 	char n, m;
+
 	m = 'A';
 	n = 'a';
 
-	if (n <= 'z' && m <= 'Z') {
+	if (n <= 'z' && m <= 'Z')
+	{
 		while (n <= 'z')
 		{
-			putchar( n );
+			putchar(n);
 			n++;
 		}
 		while (m <= 'Z')
 		{
-			putchar ( m );
+			putchar (m);
 			m++;
 		}
 	}
 
 	putchar ('\n');
-	
 	return (0);
 }
