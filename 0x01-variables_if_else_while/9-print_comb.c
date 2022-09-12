@@ -20,7 +20,7 @@ int main(void)
 		putchar(' ');
 	}
 
-	for (num == 9; ;)
+	for (num = 9; ;)
 	{
 		putchar((num % 10) + '0');
 		break;
