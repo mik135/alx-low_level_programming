@@ -18,9 +18,12 @@ int main(void)
 		putchar((num % 10) + '0');
 		putchar(',');
 		putchar(' ');
+	}
 
-		if (num ==10)
-			!putchar(' ');
+	for (num == 9; ;)
+	{
+		putchar((num % 10) + '0');
+		break;
 	}
 
 	return (0);
