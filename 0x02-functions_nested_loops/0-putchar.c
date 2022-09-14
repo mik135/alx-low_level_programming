@@ -1,10 +1,14 @@
 #include "main.h"
+#include <unistd.h>
 /*
 * File: 0-putchar.c
 *
 * Author: mik135
 */
-
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 /**
 * main - prints _putchar
 * followed by a new line
