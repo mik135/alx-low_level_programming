@@ -1,5 +1,5 @@
 #include "main.h"
-/* 
+/*
 * File: 1-alphabet.c
 *
 * Author: mik135
