@@ -6,17 +6,12 @@
 */
 
 /**
-* print_alphabet - prints the lowercase alphabets
+* main - check the code
 *
-* Return: void
+* Return: Always 0.
 */
-void print_alphabet(void)
+int main(void)
 {
-	char alp;
-
-	for (alp = 'a'; alp <= 'z'; alp++)
-	{
-		_putchar(alp);
-	}
-	_putchar('\n');
+	print_alphabet();
+	return (0);
 }
