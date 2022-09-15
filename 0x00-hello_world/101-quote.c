@@ -23,5 +23,5 @@ int main(void)
 		else
 			putchar(string[count]);
 	}
-	return (0);
+	return (1);
 }	
