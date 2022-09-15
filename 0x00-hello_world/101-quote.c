@@ -5,7 +5,7 @@
 */
 
 /**
-* main - prints a string
+* main - prints a long string
 *
 * Return: 0
 */
