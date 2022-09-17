@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+/*
 * File: 4-isalpha.c
 *
 * Author: mik135
