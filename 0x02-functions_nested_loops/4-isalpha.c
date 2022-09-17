@@ -7,7 +7,9 @@
 
 /**
 * _isalpha - function that checks for alphabetic characters
-* @c: function argument
+*
+* @c: function integer argument
+*
 * Return: 1 or 0
 */
 int _isalpha(int c)
@@ -16,7 +18,7 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else if (c >= 'A' && c<= 'z')
+	else if (c >= 'A' && c <= 'z')
 	{
 		return (1);
 	} else
