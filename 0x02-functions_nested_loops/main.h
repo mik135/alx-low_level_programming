@@ -19,4 +19,6 @@ int print_last_digit(int lasdigit);
 
 void jack_bauer(void);
 
+int add(int a, int b);
+
 #endif
