@@ -1,13 +1,13 @@
 #include "main.h"
 /**
 * print_last_digit - prints the last digit of a number
-* @lasdigit: interger to be processed
-* Return: lasdigit
+* @n: integer to be processed
+* Return: n
 */
-int print_last_digit(int lasdigit)
+int print_last_digit(int n)
 {
-	if (lasdigit < 0)
-		lasdigit = lasdigit * -1;
-	_putchar((lasdigit % 10) + '0');
-	return (lasdigit % 10);
+	if (n < 0)
+		n = n * -1;
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
