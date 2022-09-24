@@ -6,30 +6,18 @@
 */
 int main(void)
 {
-	int m_one, m_two, sum1, sum2, totalsum;
+	int m_one, sum;
 
-	sum1 = 0;
-	sum2 = 0;
+	sum = 0;
 
-	for (m_one = 3; m_one < 1024; m_one++)
+	for (m_one = 0; m_one < 1024; m_one++)
 	{
-		if (m_one % 3 == 0)
+		if (m_one % 3 == 0 || m_one % 5 == 0)
 		{
-			sum1 = sum1 + m_one;
+			sum += m_one;
 		}
 	}
-
-	for (m_two = 5; m_two < 1024; m_two++)
-	{
-		if (m_two % 5 == 0)
-		{
-			sum2 = sum2 + m_two;
-		}
-	}
-
-	totalsum = sum1 + sum2;
-
-	printf("%d", totalsum);
+	printf("%d", sum);
 	printf("\n");
 	return (0);
 }
