@@ -10,11 +10,11 @@ int main(void)
 
 	int count, nextnum;
 
-	count = 50;
+	count = 49;
 
 	printf("%d, %d, ", term1, term2);
 
-	for (int j = 2; j < 49; j++)
+	for (int j = 2; j < count; j++)
 	{
 		nextnum = term1 + term2;
 		term1 = term2;
